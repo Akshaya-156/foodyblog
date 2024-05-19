@@ -17,9 +17,11 @@ box-sizing: border-box;
     
     background-color: rgb(55, 81, 72);
 }
-
-
-
+.container{
+    width: 100vh;
+    height: 100vh;
+    overflow-x: none;
+}
 
 
 
