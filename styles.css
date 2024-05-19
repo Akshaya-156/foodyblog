@@ -13,15 +13,11 @@ box-sizing: border-box;
 
 .navcontainer{ 
 
-    width: 100vh;
+    width: 100vw;
     
     background-color: rgb(55, 81, 72);
 }
-.container{
-    width: 100vh;
-    height: 100vh;
-    overflow-x: none;
-}
+
 
 
 
