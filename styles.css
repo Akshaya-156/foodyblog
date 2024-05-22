@@ -53,7 +53,7 @@ header{
     background-color: rgb(239, 135, 30);
  align-items: center;
  display: flex;
-   color: azure;
+   color: rgb(9, 9, 9);
 }
 
 .logo{
@@ -63,29 +63,56 @@ header{
 
 .food{
     width: 100%;
-    height:350px;
+    height: 200px;
     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOCDDJrf2Lt2U0GC-ohGrRTb3gy66V_6avPg&s);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    text-align: center;
 }
 
 
 
-.foodoic{
-    color: rgb(248, 243, 242);;
+.foodoic p{
+    color: rgb(237, 234, 232);
+    font-weight: 500;
+    font-style: italic;
 }
 
-h2{
-    color: black;
+.foodoic h2{
+    color: rgb(253, 252, 252);
     font-weight: 900;
 }
+.SearchBox{
+max-width: 500px;
+margin: 20px;
+display: flex;
+
+}
+
+.SearchBox input{
+    width: 70%;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+    border: 0;
+    font-size: 1rem;
+    border: 1px solid orange;
+}
 
 
+.SearchBox button{
 
+    padding: 10px;
+    outline: none;
+    border-radius: 0px 5 5 0px;
+    border: 0;
+    font-size: 1rem;
+    background: orange;
+    font: white;
+    cursor: pointer;
 
-
-
+}
 
 
 
